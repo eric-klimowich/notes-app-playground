@@ -42,7 +42,7 @@ const product = {
 //     const { label } = MyProduct
 // }
 
-const transaction = (type, { label, stock }) => {
+const transaction = (type, { label, stock = 0 } = {} ) => {
     console.log(type, label, stock)
 }
 

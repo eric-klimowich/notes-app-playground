@@ -7,4 +7,5 @@ const greeter = (name = 'user') => {
 // }
 
 greeter()
+
 greeter('Eric')
